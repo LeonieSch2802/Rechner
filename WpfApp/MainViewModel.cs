@@ -9,6 +9,6 @@ namespace WpfApp
 {
     class MainViewModel : MvxViewModel
     {
-        public string Title => "MainView";
+        public string Title => "Rechenautomat";
     }
 }
