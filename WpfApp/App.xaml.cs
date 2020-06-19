@@ -16,10 +16,9 @@ namespace WpfApp
     /// </summary>
     public partial class App : MvxApplication
     {
-
         protected override void RegisterSetup()
         {
-            this.RegisterSetupType<MvxSetup>();
+            this.RegisterSetupType<MvxWpfSetup<Setup>>();
         }
     }
 }
